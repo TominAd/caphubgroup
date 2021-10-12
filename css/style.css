@@ -21,7 +21,7 @@
     --card-shadow: 0 1px 4px rgba(0, 0, 0, 1),
 -23px 0 20px -23px rgba(0, 0, 0, .8),
 23px 0 20px -23px rgba(0, 0, 0, .8),
-0 0 40px rgba(0, 0, 0, .1) inset;;
+0 0 40px rgba(0, 0, 0, .1) inset;
 }
 h1,
 h2,
@@ -166,7 +166,7 @@ img{
     margin-top: var(--card-set-gap);
     list-style: none;
     box-shadow: var(--card-shadow);
-    border-radius:1px
+    border-radius:20px;
     display: flex;
     flex-wrap: wrap;
     margin-left: calc(-1 * var(--card-set-gap));
@@ -216,6 +216,7 @@ img{
 }
 .card{
     box-shadow: var(--card-shadow);
+    border-radius: 2px;
 }
 .card-set{
     
@@ -264,6 +265,7 @@ img{
 }
 .prime-card{
     box-shadow: var(--card-shadow);
+    border-radius: 5px;
     
 }
 .prime-set{
@@ -286,6 +288,7 @@ img{
     flex-basis: calc(100% / 2 - var(--card-set-gap));
     margin-left: var(--card-set-gap);
     margin-top: var(--card-set-gap);
+    
 }
 
 
@@ -294,4 +297,27 @@ img{
 }
 .prime-text{
     margin-top: 20px;
+}
+
+/* Подвал */
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    background-color:turquoise
+}
+
+/* плавный показ слайдов */
+.element-animation {
+ 
+  /* Скроем элемент в начальном состоянии */
+  opacity: 0;
+
+}
+
+
+.element-animation.element-show {
+  opacity: 1;
+  transition: all 1s;
+  transform: translateY(0%);
 }
