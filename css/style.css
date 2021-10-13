@@ -63,6 +63,8 @@ img{
 
 .link{
     text-decoration: none;
+    list-style: none;
+    color: var(--primary-text-color);
 }
 .container {
     max-width: 1200px;
@@ -152,6 +154,7 @@ img{
     align-items: center;
     justify-content: space-around;
     margin-top: 60px;
+    font-weight: 900;
 }
 .about{
     
@@ -196,6 +199,7 @@ img{
 }
 .about-text{
     margin-top: 20px;
+    font-weight: 900;
 }
 
 
@@ -213,6 +217,7 @@ img{
     align-items: center;
     justify-content: space-around;
     margin-top: 60px;
+    font-weight: 900;
 }
 .card{
     box-shadow: var(--card-shadow);
@@ -249,6 +254,7 @@ img{
 }
 .card-text{
     margin-top: 20px;
+    font-weight: 900;
 }
 
 /* преимйщества нашей компании */
@@ -262,6 +268,7 @@ img{
     align-items: center;
     justify-content: space-around;
     margin-top: 60px;
+    font-weight: 900;
 }
 .prime-card{
     box-shadow: var(--card-shadow);
@@ -297,6 +304,7 @@ img{
 }
 .prime-text{
     margin-top: 20px;
+    font-weight: 900;
 }
 
 /* Подвал */
