@@ -65,7 +65,7 @@ img{
 .link{
     text-decoration: none;
     list-style: none;
-    color: var(--primary-text-color);
+    color: var(--title-text-color);
 }
 .container {
     max-width: 1200px;
@@ -102,9 +102,13 @@ img{
 }
 
 
-.nav{
+/* .nav{
     padding-top: 20px;
     padding-bottom: 20px;
+} */
+.nav .nav-title{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .main-nav {
@@ -115,11 +119,17 @@ img{
 }
 .site-nav {
     display: flex;
-    
+    font-weight: 900;
+}
+
+.site-nav .link{
     padding-top: 20px;
     padding-bottom: 20px;
+}
 
-    font-weight: 900;
+.site-nav  .link:hover,
+.site-nav  .link:focus {
+    color: var(--accent-color);
 }
 
 .site-nav .item:not(:last-child) {
@@ -132,6 +142,7 @@ img{
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
+    color: var(--primary-text-color);
     
 }
 
@@ -520,12 +531,12 @@ img{
 
 
 /* Подвал */
-.footer{
+/* .footer{
     padding-top: 60px;
     padding-bottom: 60px;
 
     
-}
+} */
 .footer-nav {
     display: flex;
     justify-content: space-between;
@@ -534,6 +545,17 @@ img{
 
     font-weight: 900;
 }
+
+.footer-nav .link{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-nav  .link:hover,
+.footer-nav  .link:focus {
+    color: var(--accent-color);
+}
+
 .feedback-h2{
     display: flex;
     align-items: center;
