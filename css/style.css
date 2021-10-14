@@ -35,8 +35,8 @@ p {
 body {
     
     color: var(--praimary-text-color);
-    /* background-color: var(--white-color); */
-    background-color: rgb(241, 241, 235);
+    background-color: var(--white-color);
+    
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
     margin: 0;
