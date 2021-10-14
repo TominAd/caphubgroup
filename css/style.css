@@ -333,16 +333,17 @@ img{
 }
 
 /* обратная связь */
+.feedback{
+    background-color: grey;
+    padding-bottom: 1px;
+}
 
 .backdrop{
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
     margin-bottom: 20px;
-
-
-    /* background-color: rgba(0, 0, 0, 0.2); */
-   
+      
 }
 
 .modal{
@@ -351,11 +352,9 @@ img{
    
     width: 528px;
     height: 581px;
-    /* background-color: var(--white-color); */
-    /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2); */
+    
     box-shadow:var(--card-shadow);
+    background-color:var(--white-color);
     border-radius: 4px;
     
 }
