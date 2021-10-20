@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.element-animation {
+  /* Скроем элемент в начальном состоянии */
+  opacity: 0;
+}
+
+.element-animation.element-show {
+  opacity: 1;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+/*# sourceMappingURL=animation.css.map */
