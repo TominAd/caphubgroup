@@ -7,6 +7,17 @@
 /* фон для сотрудников #F5F4FA */
 /* фон для первой части и для подвала #2F303A */
 /*==========MAIN CONFIG=============  */
+
+@import './about';
+@import './animation';
+@import './career';
+@import './feedback';
+@import './footer';
+@import './hero';
+@import './media';
+@import './nav';
+@import './prime';
+
 :root {
   --primary-text-color: #212121;
   --title-text-color: #757575;
